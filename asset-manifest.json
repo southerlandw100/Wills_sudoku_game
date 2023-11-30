@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Wills_sudoku_game/static/css/main.56b725b8.css",
+    "main.js": "/Wills_sudoku_game/static/js/main.0d49ac03.js",
+    "static/js/787.6840c074.chunk.js": "/Wills_sudoku_game/static/js/787.6840c074.chunk.js",
+    "index.html": "/Wills_sudoku_game/index.html",
+    "main.56b725b8.css.map": "/Wills_sudoku_game/static/css/main.56b725b8.css.map",
+    "main.0d49ac03.js.map": "/Wills_sudoku_game/static/js/main.0d49ac03.js.map",
+    "787.6840c074.chunk.js.map": "/Wills_sudoku_game/static/js/787.6840c074.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56b725b8.css",
+    "static/js/main.0d49ac03.js"
+  ]
+}
