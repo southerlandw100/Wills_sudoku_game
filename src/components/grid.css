@@ -1,0 +1,44 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(9, 40px); /* Adjust size as needed */
+    grid-template-rows: repeat(9, 40px); /* Adjust size as needed */
+    gap: 1px; /* Reduce gap if it's too large */
+    justify-content: center;
+    margin: 20px auto; /* Center the grid */
+    border: 2px solid black; /* Border for the entire grid */
+    box-sizing: border-box;
+  }
+  
+  /* Apply the border-box box-sizing to all children of grid as well */
+  .grid > * {
+    box-sizing: border-box;
+  }
+  
+  /* Right border for 3rd and 6th cell in every row */
+  .cell:nth-child(3n), .cell:nth-child(6n) {
+    border-right: 3px solid black;
+  }
+  
+  /* Bottom border for the 3rd and 6th row */
+  .cell:nth-child(n+19):nth-child(-n+27), 
+  .cell:nth-child(n+46):nth-child(-n+54) {
+    border-bottom: 3px solid black;
+  }
+  
+  /* Outer borders */
+  .cell:nth-child(-n+9) { /* Top edge */
+    border-top: 3px solid black;
+  }
+  
+  .cell:nth-child(9n) { /* Right edge */
+    border-right: 3px solid black;
+  }
+  
+  .cell:nth-child(n+73) { /* Bottom edge */
+    border-bottom: 3px solid black;
+  }
+  
+  .cell:nth-child(9n+1) { /* Left edge */
+    border-left: 3px solid black;
+  }
+  
