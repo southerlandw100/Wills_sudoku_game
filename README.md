@@ -1,8 +1,8 @@
-Will's Sudoku Game
+
 Welcome to my custom Sudoku game! This project was an exciting journey into the world of React and TypeScript. It was both challenging and rewarding to create this game from scratch, and I'm thrilled to share it with you.
 Feel free to poke around the code I wrote in the src folder to see how I did it!
 
-Features
+Features---
 Custom-designed grid.
 Standard game functionalities including undo/redo.
 Helpful hints to guide you.
@@ -10,10 +10,10 @@ Helpful hints to guide you.
 "Solve Puzzle" option for when you're stuck.
 
 
-Play the Game
+Play the Game---
 Experience my Sudoku game at the link below. It's optimized for desktop play.
 https://southerlandw100.github.io/Wills_sudoku_game/
 
 
-Note
+Note---
 This was my first major project using React and TypeScript. I learned a lot and hope you enjoy playing it as much as I enjoyed building it!
