@@ -2,7 +2,7 @@
   "name": "my-sudoku-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://will-southerland.github.io/My-sudoku-game",
+  "homepage": "https://southerlandw100.github.io/Wills_sudoku_game",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

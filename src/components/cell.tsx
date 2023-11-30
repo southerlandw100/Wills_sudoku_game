@@ -25,8 +25,11 @@ const Cell: React.FC<CellProps> = ({
   };
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    onChange(event.target.value);
-  };
+    const newValue = event.target.value;
+    if (/^[1-9]$/.test(newValue) || newValue === ''){
+      onChange(newValue);
+      }
+    };
 
   // Use the isIncorrect prop to conditionally apply a class
   const cellClassName = `cell ${isFixed ? 'fixed' : 'dynamic'} ${isSelected ? 'selected' : ''} ${isIncorrect ? 'incorrect-cell' : ''}`;

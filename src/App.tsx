@@ -184,7 +184,6 @@ const App = () => {
     setIncorrectCells(newIncorrectCells);
   };
 
-  //maybe add a modal that checks with the user if they reaaaally wanna use a hint
   const useHint = () => {
     if (
       hints > 0 &&
