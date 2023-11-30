@@ -1,3 +1,10 @@
+Hey there!  I wrote this project using typescript with the react library.  I had a lot of fun learning these new skills in the process.  If you'd like to play my game, check it out at the following link-
+
+https://southerlandw100.github.io/Wills_sudoku_game
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
